@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="salesrule_validator_process">
+		<observer name="risecommerce_tierpricedisable_observer_salesrule_validatorprocess_salesrule_validator_process" instance="Risecommerce\TierpriceDisable\Observer\Salesrule\ValidatorProcess"/>
+	</event>
+</config>
